@@ -1,0 +1,122 @@
+/* Global Styles */
+body {
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+/* Header Styles */
+header {
+  background-color: #000000; /* Dark Black */
+  color: #ecf0f1; /* Light Gray */
+  padding: 0px 0;
+  margin: 0px;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#container-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#container-logo {
+  display: flex;
+  align-items: center;
+}
+
+#container-logo img {
+  margin-right: 10px;
+}
+
+h1 {
+  margin: 0;
+  font-size: 2.5em;
+}
+
+/* Main Content Styles */
+main {
+  padding: 20px;
+  max-width: 800px;
+  margin: 20px auto; /* Center the main content */
+}
+
+#section-gender-equality {
+  background: #ffffff; /* White */
+  border-radius: 8px;
+  padding: auto;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Adding margin-top to paragraphs to ensure they start below the header */
+p {
+  margin-top: 30px; /* Adjust this value as needed */
+  margin-bottom: 15px;
+  font-size: 1.1em;
+  line-height: 1.8;
+}
+
+/* Image Container Styles */
+.container-images-gender-equality {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.container-images-gender-equality img {
+  max-width: 32%; /* Adjust for consistent spacing */
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+
+.container-images-gender-equality img:hover {
+  transform: scale(1.05);
+}
+
+/* Footer Styles */
+footer {
+  background-color: #000000; /* Darker Black */
+  color: #ecf0f1;
+  padding: 20px;
+  text-align: center;
+}
+
+.container-contents {
+  max-width: 800px;
+  margin: auto;
+}
+
+.row-gray {
+  height: 2px;
+  background-color: #bdc3c7; /* Light Gray */
+  margin: 10px 0;
+}
+
+.tchossy {
+  font-style: italic;
+}
+
+.copyright {
+  margin-top: 10px;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  h1 {
+      font-size: 2em;
+  }
+
+  .container-images-gender-equality {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .container-images-gender-equality img {
+      max-width: 90%; /* Full-width on smaller screens */
+      margin-bottom: 20px;
+  }
+}
